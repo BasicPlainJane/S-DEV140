@@ -131,7 +131,7 @@ Label(f12, text='It is no matter of how you came to be here, or how you are to l
                 '\n the journey that came and went. Her voice so melodious as she spoke.'
                 '\n She gives you only one piece of advice and that is to go to the turtles house under the pier. '
                 '\nShe also says she believes you will find the way out.'
-                '\nWalking up to the charming little house will you open the door or wait for the turtle?').pack()
+                '\nWalking up to the charming little house will you open the door or wait for the turtle?', bg="#C4BCCB").pack()
 Button(f12, bg='#BCC7A7', text='Open the door as it is unlocked?', command=lambda: raise_frame(f10)).pack()
 Button(f12, bg='#BCC7A7', text='Wait for the turtle to return?', command=lambda: raise_frame(f11)).pack()
 
